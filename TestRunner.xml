@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SampleTestRunner" verbose="1" >
+    <listeners>
+        <listener class-name="core.utilities.TestListeners"></listener>
+    </listeners>
+    <test name="Smoke">
+        <groups>
+            <run>
+                <exclude name="" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ShortestRouteOptimizer.AlgorithmCalculatorTest"/>
+
+        </classes>
+    </test>
+</suite>
